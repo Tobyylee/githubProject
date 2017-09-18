@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="TestPipeParent">
+    </qresource>
+</RCC>

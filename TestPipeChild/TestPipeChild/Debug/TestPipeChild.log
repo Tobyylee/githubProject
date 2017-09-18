@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/7/11 13:39:19。
+     1>项目“D:\project\TestPipeChild\TestPipeChild\TestPipeChild.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\TestPipeChild.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         TestPipeChild.vcxproj -> D:\project\TestPipeChild\Win32\Debug\TestPipeChild.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TestPipeChild.unsuccessfulbuild”。
+         正在对“Debug\TestPipeChild.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\project\TestPipeChild\TestPipeChild\TestPipeChild.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.10
