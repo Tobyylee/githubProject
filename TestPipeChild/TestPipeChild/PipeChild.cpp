@@ -32,7 +32,7 @@ std::string PipeChild::onPipeRead()
 	DWORD dwRead;
 	DWORD dwRead2;
 	DWORD dwRead3;
-	//我用的是PeekNamedPipe，而不是ReadFile，因为如果管道没有数据的话，ReadFile会阻塞线程
+	//用的是PeekNamedPipe，而不是ReadFile，因为如果管道没有数据的话，ReadFile会阻塞线程
 	PeekNamedPipe(hRead, buf, 100, &dwRead, &dwRead2, &dwRead3);
 	std::string l_str = "read fail";
 	if(dwRead <= 0)
