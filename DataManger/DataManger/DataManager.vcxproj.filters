@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Common\lyConfig.cpp" />
+    <ClCompile Include="Config\lySysConfig.cpp" />
+    <ClCompile Include="DateManagerApp.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manager\lyConfigManager.cpp" />
+    <ClCompile Include="Manager\lyDateManager.cpp" />
+    <ClCompile Include="Manager\lyLanguageManager.cpp" />
+    <ClCompile Include="Manager\lyThemeManager.cpp" />
+    <ClCompile Include="Manager\lyWidgetManager.cpp" />
+    <ClCompile Include="Widget\DataManager.cpp" />
+    <ClCompile Include="Widget\lyExcelTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\lyOperatorExcelFile.cpp" />
+    <ClCompile Include="Widget\lyExcelItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableStruct\DateTableMes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyMainWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyExcelItemProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyTableView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyTipTranWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\lyReadSiteInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\lyFileIOThreadObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\lyDataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\lyCityWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\lyCityPageWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\lyLogManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyDataMesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\lyDateSiteEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\lyParConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyEditMesType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\lyEditMesTypeRoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\lyExcelDataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\DataInputTipWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\lyConfig.h" />
+    <ClInclude Include="Config\lySysConfig.h" />
+    <ClInclude Include="Manager\lyConfigManager.h" />
+    <ClInclude Include="Manager\lyDateManager.h" />
+    <ClInclude Include="Manager\lyLanguageManager.h" />
+    <ClInclude Include="Manager\lyThemeManager.h" />
+    <ClInclude Include="Manager\lyWidgetManager.h" />
+    <ClInclude Include="Common\lyOperatorExcelFile.h" />
+    <ClInclude Include="TableStruct\DateTableMes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\lyReadSiteInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\lyDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\lyLogManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\lyParConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\lyExcelDataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\lyCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Widget\DataManager.h" />
+    <QtMoc Include="DateManagerApp.h" />
+    <QtMoc Include="Widget\lyExcelTableModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyExcelItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyMainWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyExcelItemProxyModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyTableView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyTipTranWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\lyFileIOThreadObject.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\lyCityWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\lyCityPageWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyDataMesDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\lyDateSiteEdit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyEditMesType.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\lyEditMesTypeRoom.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\DataInputTipWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="DataManager.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="FormFile\DataManager.ui" />
+    <QtUic Include="FormFile\lyMainWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\lyTipTranWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\lyCityWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\lyDataMesDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\lyEditMesType.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\lyEditMesTypeRoom.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FormFile\DataInputTipWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Language\En\datamanger_zh.ts" />
+    <None Include="Data\Language\En\datamanger_zh.qm" />
+    <None Include="Data\Config\SysConfig.ini" />
+    <None Include="Data\Config\ParConfig.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+</Project>

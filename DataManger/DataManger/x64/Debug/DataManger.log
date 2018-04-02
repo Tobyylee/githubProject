@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (DataManger.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Moc'ing Widget\DataManager.h...
+  Moc'ing DateManagerApp.h...
+  Rcc'ing DataManager.qrc...
+  Uic'ing FormFile\DataManager.ui...
+  RCC: Warning: No resources in 'D:\project\DataManger\DataManger\DataManager.qrc'.
+  qrc_DataManager.cpp
+  DateManagerApp.cpp
+  lyDateManager.cpp
+  lyWidgetManager.cpp
+  DataManager.cpp
+  main.cpp
+  moc_DataManager.cpp
+  moc_DateManagerApp.cpp
+  DataManger.vcxproj -> D:\project\DataManger\x64\Debug\DataManager.exe
+  DataManger.vcxproj -> D:\project\DataManger\x64\Debug\DataManager.pdb (Full PDB)

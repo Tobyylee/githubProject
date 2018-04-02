@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DataMangerClass</class>
+ <widget class="QMainWindow" name="DataMangerClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DataManger</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../DataManager.qrc">
+    <normaloff>:/DataManger/Data/image/calendar.png</normaloff>:/DataManger/Data/image/calendar.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralWidget
+{
+	border-top: 1px solid white;
+}
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="lyMainWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionopenFile"/>
+    <addaction name="separator"/>
+    <addaction name="actionsaveFile"/>
+    <addaction name="separator"/>
+    <addaction name="actionoutputFile"/>
+   </widget>
+   <widget class="QMenu" name="menuoperator">
+    <property name="title">
+     <string>operator</string>
+    </property>
+    <addaction name="actionEditMesTpye"/>
+    <addaction name="actioneditMeetSite"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuoperator"/>
+  </widget>
+  <action name="actionopenFile">
+   <property name="icon">
+    <iconset resource="../DataManager.qrc">
+     <normaloff>:/DataManger/Data/image/openFile.png</normaloff>:/DataManger/Data/image/openFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>openFile</string>
+   </property>
+  </action>
+  <action name="actionsaveFile">
+   <property name="icon">
+    <iconset resource="../DataManager.qrc">
+     <normaloff>:/DataManger/Data/image/saveFile.png</normaloff>:/DataManger/Data/image/saveFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>saveFile</string>
+   </property>
+  </action>
+  <action name="actionoutputFile">
+   <property name="icon">
+    <iconset resource="../DataManager.qrc">
+     <normaloff>:/DataManger/Data/image/outputFile.png</normaloff>:/DataManger/Data/image/outputFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>outputFile</string>
+   </property>
+  </action>
+  <action name="actionEditMesTpye">
+   <property name="text">
+    <string>editMesTpye</string>
+   </property>
+  </action>
+  <action name="actioneditMeetSite">
+   <property name="text">
+    <string>editMeetSite</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>lyMainWidget</class>
+   <extends>QWidget</extends>
+   <header>lymainwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../DataManager.qrc"/>
+ </resources>
+ <connections/>
+</ui>

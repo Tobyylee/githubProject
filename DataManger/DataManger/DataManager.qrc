@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="DataManger">
+    <file>Data/image/openFile.png</file>
+    <file>Data/image/outputFile.png</file>
+    <file>Data/image/saveFile.png</file>
+    <file>Data/image/calendar.png</file>
+  </qresource>
+</RCC>
